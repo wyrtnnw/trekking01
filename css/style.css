@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+body{
+    min-width: 320px;
+}
+h1,h2,h3,h4,h5,h6,a,p,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    background: url(../img/fon.jpg) no-repeat center/cover;
+    padding-bottom:20% ;
+    padding-top: 40px;
+    
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+header nav ul li a{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 53px;
+}
+header nav ul li a:hover{
+    color: rgb(30, 204, 204);
+}
+
+header nav ul{
+    display: flex;
+}
+
+header .header-text{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+header .header-text h1{
+    font-size: 60px;
+    color: #fff;
+    margin-top: 30%;
+}
+header .header-text p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 12px;
+}
+/* header end */
+/* ********************************** */
+
+
+/* main start */
+/* *************************************** */
+
+main .main-nav{
+    background: #f5f6f7;
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+
+main .main-nav nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .main-nav nav ul{
+    display: flex;
+}
+
+main .main-nav nav ul li a{
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-right: 85px;
+}
+main .main-nav nav ul li a:hover{
+    color: rgb(184, 179, 159);
+}
+
+main .main-nav nav button{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #b9ac8e;
+    border: none;
+    border-radius: 5px;
+    padding:21px 34px;
+}
+
+main .main-nav button:hover{
+    background: #7a776a;
+}
+
+/* ********************* */
+
+/* section start */
+
+section h6{
+    font-size: 20px;
+    color: #424242;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+section .box{
+    width: 100%;
+    height: 2px;
+    background: #cccccc;
+    margin-left: 54px;
+     
+}
+section{
+    padding-top: 88px;
+     padding-bottom: 151px;
+     
+}
+
+section .section-block{
+    background: #f5f6f7;
+    border: 5px solid #f5f6f7;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 30px 20px 28px;
+}
+.section-block:hover{
+    border: 6px solid #3a371f;
+}
+section .section-block select{
+    border: none;
+    background: transparent;
+    margin-right: auto;
+    font-size: 16px;
+    color: #424242;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+section .section-block p{
+    font-size: 18px;
+    color: #aa9677;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 53px;
+}
+section .section-block p span{
+    font-size: 22px;
+    color: #424242;
+    
+}
+section .section-block img{
+    height: 221px;
+    width: 197px;
+    object-fit:contain; 
+}
+/* ******************** */
+/* footer start */
+.section-text{
+      background: #aa9b77;
+}
+.section-text .footer-text{
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 149px;
+}
+.section-text .footer-text h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #5a5751; 
+}
+.section-text .footer-text p{
+    max-width: 475px;
+    width: 100%;
+    margin: 87px auto auto auto;
+    text-align: center;
+    font-size: 16px;
+    color:#424242;
+
+}
+.sec2{
+    background: #535253;
+    padding:27px 66px 27px 22px;       
+    
+}
+.sec2 .sec2-text{
+    text-align: start;
+    display: flex;
+    align-items: center;
+}
+.sec2 .sec2-text h3{
+    font-size: 16px;
+}
+
+/* ********************** */
+
+/* footer start */
+footer{
+    background: #424242;
+    padding-top: 109px;
+    padding-bottom: 131px;
+}
+
+footer .block-1 h4{
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+footer .block-1 p{
+    max-width: 300px;
+    width: 100%;
+    margin: 24px auto auto auto;
+    font-size:10px;
+    text-transform: uppercase;
+    color: #ffffff; 
+}
+
+.box-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .block-2 ul{
+    display: flex;
+    align-items: center;
+}
+footer .block-2 ul li a{
+    color: #fff;
+    border-right: 1px solid #aa9b77;
+    display: block;
+    padding: 0 3px;
+    text-transform: uppercase;
+}
+footer .block-2 ul li a:hover{
+    color: darkgrey;
+}
+footer .block-2 p{
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
+

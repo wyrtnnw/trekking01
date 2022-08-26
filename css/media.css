@@ -1,0 +1,38 @@
+@media (max-width:400px) {
+    header .header-text h1{
+        font-size: 25px;
+    }
+    header .header-text p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    main .main-nav ul li a{
+        margin-right: 20px;
+    }
+     .box-flex{
+         flex-direction: column;
+}
+    .block-2{
+        margin-top: 55px;
+    }
+}
+
+@media (max-width:464px ) {
+    main .main-nav nav{
+        flex-direction: column;
+    }
+    
+    main .main-nav nav button{
+        margin-top:15px;
+    }
+    main .main-nav nav ul{
+        width: 100%;
+        justify-content: space-between;
+    }
+    main .main-nav nav ul li a{
+        margin-right: 0;
+    }
+    
+}
